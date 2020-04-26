@@ -29,10 +29,9 @@ package ao.protocol;
  * @author Paul Smith
  */
 public enum DimensionAddress {
-    RK1("Atlantean (Rubi-Ka 1)",         "chat.d1.funcom.com", 7101),
-    RK2("Rimor (Rubi-Ka 2)",             "chat.d2.funcom.com", 7102),
-    //RK3("Die Neue Welt (German Server)", "chat.d3.funcom.com",  7103),
-    TEST("Test-Live (Test Server)",      "chat.dt.funcom.com", 7109);
+    TEST("Test-Live", "chat.dt.funcom.com", 7109);
+    RK5("Rubi-Ka", "chat.d1.funcom.com", 7105),
+    RK6("RK 2019", "chat.d1.funcom.com", 7106),
     
     private final String m_name;
     private final String m_url;
